@@ -131,9 +131,11 @@ h4 {
     font-size: 2.2rem;
     display: block;
 }
-.Madelyne{
-    color: #500909;
-}
+.avatar-user{border-radius: 50%!important;}
+.avatar{border-radius: 6px;}
+.madi{display: block;}
+.madi div{ display: inline-block;}
+
 @media (min-width: 768px) {
     .navegacion a {
         display: inline-block;
