@@ -365,6 +365,7 @@ border-radius: 50%;
 .site-footer {
     background-color: #333333;
     margin: 0;
+    padding:0rem;
 }
 .contenedor-footer {
     padding: 3rem 0rem 0rem 0rem;
