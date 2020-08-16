@@ -259,7 +259,7 @@ border-radius: 50%;
     justify-content: flex-end;
 }
 .imagen-header1{
-    background-image: url(/img/segundoheader.png);
+    background-image: url(../img/segundoheader.png);
     background-position: center center;
     background-size: cover;
     height: 40rem;
