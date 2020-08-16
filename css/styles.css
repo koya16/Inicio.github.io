@@ -10,7 +10,7 @@ body {
     font-size: 1.6rem;
     line-height: 2;
 }
-.made{color: #ee1414 }
+
 
 /** Globales **/
 img {
@@ -130,6 +130,9 @@ h4 {
     text-decoration: none;
     font-size: 2.2rem;
     display: block;
+}
+.Madelyne{
+    color: #500909;
 }
 @media (min-width: 768px) {
     .navegacion a {
