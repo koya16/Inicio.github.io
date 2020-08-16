@@ -117,10 +117,9 @@ h4 {
     display: block;
 }
 .navegacion a .avatar-user img{border-radius: 50%;}
-.avatar-user div  img{border-radius: 6px;}
 .madi{display: block;}
 .madi div{ 
-    display:inline-block;
+    display:block;
     padding-top: 4px;
     margin-bottom: 0;
     margin-top: 0;
