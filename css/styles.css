@@ -131,10 +131,14 @@ h4 {
     font-size: 2.2rem;
     display: block;
 }
-.avatar-user{border-radius: 50%!important;}
-.avatar{border-radius: 6px;}
+.navegacion a .avatar-user{border-radius: 50%!important;}
+.avatar-user div {border-radius: 6px;}
 .madi{display: block;}
-.madi div{ display:inline-block;}
+.madi div{ 
+    display:inline-block;
+    padding-top: 4px;
+    margin-block: 0;
+}
 
 @media (min-width: 768px) {
     .navegacion a {
