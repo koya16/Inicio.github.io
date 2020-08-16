@@ -178,15 +178,31 @@ border-radius: 50%;
 @media (min-width: 768px) {
     .iconos-nosotros {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
+        margin-bottom: 2rem;
+        
+        
     }
+}
+.centrar{
+    text-align: center;
+}
+.lado{
+    text-align: justify;
+}
+.borde{
+    border-radius: 30px;
 }
 .icono {
     text-align: center;
 }
+.icono-p {
+    text-align: justify;
+}
 @media (min-width: 768px) {
     .icono {
-        flex-basis: calc(33.3% - 1rem);
+        flex-basis: calc(50% - 1rem);
     }
 }
 .icono h3 {
@@ -241,7 +257,14 @@ border-radius: 50%;
     display: flex;
     justify-content: flex-end;
 }
-
+.imagen-header1{
+    background-image: url(/img/segundoheader.png);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
 /** Contacto Home **/
 .imagen-contacto {
     background-image: url(../img/encuentra.jpg);
@@ -343,7 +366,7 @@ border-radius: 50%;
     margin: 0;
 }
 .contenedor-footer {
-    padding: 3rem 0;
+    padding: 3rem 0rem 0rem 0rem;
     text-align: center;
 }
 @media (min-width: 768px) {
